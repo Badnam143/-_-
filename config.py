@@ -34,15 +34,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ROCKY-D3V/XDBOT")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Shameem736/-_-")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/XD_N3TWORK")
+    "SUPPORT_CHANNEL", "https://t.me/khamoshiya01")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/XD_BOTX")
+    "SUPPORT_GROUP", "https://t.me/friendship_forever_group143")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -118,12 +118,12 @@ START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/9e2f6bea367dc52e
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/cd2a4310611b1afd43a73.jpg",
+    "https://te.legra.ph/file/6fe95edf05d049b4d05a3.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg",
+    "https://te.legra.ph/file/b2022725f36c2145787d1.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
