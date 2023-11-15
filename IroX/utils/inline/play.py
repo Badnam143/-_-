@@ -58,10 +58,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/friendship_forever_group143"
-            ),
-            InlineKeyboardButton(
-                text="✭ᴄʜᴀɴɴᴇʟ✭", url=f"https://t.me/khamoshiya01"
+                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/+73G8oOcj7XxjYTY1"
             ),
             InlineKeyboardButton(
                 text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
@@ -125,6 +122,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/+73G8oOcj7XxjYTY1"
+            ),
+            InlineKeyboardButton(
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
+            ),
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -154,6 +157,12 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/+73G8oOcj7XxjYTY1"
+            ),
+            InlineKeyboardButton(
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
+            ),
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -179,6 +188,13 @@ def telegram_markup(_, chat_id):
             ),
         ],
         [
+            InlineKeyboardButton(
+                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/+73G8oOcj7XxjYTY1"
+            ),
+            InlineKeyboardButton(
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
+            ),
+            
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
@@ -303,14 +319,15 @@ def slider_markup(
 close_keyboard = InlineKeyboardMarkup( 
             [
                 [
-                    InlineKeyboardButton(
+                 InlineKeyboardButton(
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
+            ),
+                InlineKeyboardButton(
                         text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
-                    )
-                ]    
+                    ),
+                ],    
             ]
-        )
-
-
+)
 ## Queue Markup
 
 def queue_markup(_, videoid, chat_id):
@@ -334,6 +351,12 @@ def queue_markup(_, videoid, chat_id):
             ),
         ],
         [
+            InlineKeyboardButton(
+                text="✭𝙶𝚁𝙾𝚄𝙿✭", url=f"https://t.me/+73G8oOcj7XxjYTY1"
+            ),
+            InlineKeyboardButton(
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Itzz_me_innocentt"
+            ),
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
